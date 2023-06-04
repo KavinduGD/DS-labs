@@ -12,7 +12,7 @@ public class MyServer {
                 String serverAddress = "127.0.0.3"; // Specify the desired IP address
                 int serverPort=6666;
 
-                
+                //ServerSocket ss=new ServerSocket(6666); 
                 ServerSocket serverSocket = new ServerSocket(serverPort, 10, InetAddress.getByName(serverAddress));
 
                 while(true){
